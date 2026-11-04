@@ -60,3 +60,10 @@ Netlify:
 - The Brand Analysis `LEARN MORE` link on `services.html` now opens this page.
 - Services remains the active gold-underlined navigation item.
 - Includes hero, Who it’s for, What’s getting in the way, What you receive, and the four-step How it works timeline.
+
+
+## v11 — Content Direction detail page
+- Added `content-direction.html` matching the supplied Content Direction reference.
+- Content Direction `LEARN MORE` on Services now opens this page.
+- Services remains the active gold-underlined navigation item.
+- Includes Who it’s for, What you receive, How it helps, and the dark CTA strip.
