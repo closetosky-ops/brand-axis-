@@ -67,3 +67,10 @@ Netlify:
 - Content Direction `LEARN MORE` on Services now opens this page.
 - Services remains the active gold-underlined navigation item.
 - Includes Who it’s for, What you receive, How it helps, and the dark CTA strip.
+
+
+## v13 — Creative Production detail page
+- Added `creative-production.html` based on the supplied Creative Production reference.
+- Creative Production `LEARN MORE` on Services now opens this page.
+- Services remains the active gold-underlined navigation item.
+- Includes Who it’s for, What you receive, How it helps, five-image content strip, and the dark inquiry CTA.
