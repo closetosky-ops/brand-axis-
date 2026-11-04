@@ -78,14 +78,14 @@ a { color: inherit; }
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  gap: clamp(26px, 2.5vw, 42px);
+  gap: clamp(30px, 2.8vw, 46px);
   margin-left: auto;
 }
 
 .site-nav a {
   text-decoration: none;
   color: var(--ivory);
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 600;
   letter-spacing: .015em;
   transition: color .2s ease;

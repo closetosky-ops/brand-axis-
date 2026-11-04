@@ -41,3 +41,8 @@ Netlify:
 - Replaced the broken-arc/cropped logo with the approved full-circle BA + BRAND AXIS mark.
 - Removed the screenshot background to transparency.
 - Added generous transparent padding around the complete circle.
+
+
+## v8
+- Increased desktop navigation text from 13px to 15px.
+- Slightly increased nav spacing for a more polished header.
