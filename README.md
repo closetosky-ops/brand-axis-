@@ -53,3 +53,10 @@ Netlify:
 - Home page navigation now opens the Services page.
 - Hero `START MY CONTENT PLAN` button also opens Services.
 - Approved circular logo, Brand Axis palette, navigation size, and header CTA are preserved.
+
+
+## v10 — Brand Analysis detail page
+- Added `brand-analysis.html` based on the supplied Brand Analysis reference.
+- The Brand Analysis `LEARN MORE` link on `services.html` now opens this page.
+- Services remains the active gold-underlined navigation item.
+- Includes hero, Who it’s for, What’s getting in the way, What you receive, and the four-step How it works timeline.
