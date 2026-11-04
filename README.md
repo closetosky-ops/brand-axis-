@@ -18,3 +18,9 @@ Netlify:
 - Branch: main
 - Build command: blank
 - Publish directory: .
+
+
+## v4 adjustments
+- Full circular approved logo is padded so it does not clip.
+- Navigation group is aligned to the right, before the primary CTA.
+- Lower hero CTA changed to `START MY CONTENT PLAN →`.
