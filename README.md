@@ -24,3 +24,8 @@ Netlify:
 - Full circular approved logo is padded so it does not clip.
 - Navigation group is aligned to the right, before the primary CTA.
 - Lower hero CTA changed to `START MY CONTENT PLAN →`.
+
+
+## v5
+- Replaced cropped logo asset with the approved clean full-circle logo.
+- Increased header/logo box to keep the full circle visible.
