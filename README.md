@@ -1,19 +1,20 @@
-# Brand Axis — exact screenshot rebuild
+# Brand Axis — polished hero rebuild
 
-This is a fresh rebuild based only on the approved reference screenshot.
+Fresh website code based on the approved Brand Axis hero, updated with:
+- approved circular BA monogram logo
+- approved palette:
+  - Axis Blue #0F1B2D
+  - Gold #C6A24A
+  - Ivory #F8F5EF
+  - Mist #DFE8F3
+  - Gray #6F7480
+- logo moved to the far-left and linked to Home
+- hero portrait softened/blended into the blue background
+- CREATIVE updated to CREATIVE CONCEPT
+- PLAN MY CONTENT header CTA
+- responsive mobile menu
 
-## Files
-- `index.html`
-- `assets/css/styles.css`
-- `assets/js/main.js`
-- `assets/images/brand-axis-logo.png`
-- `assets/images/hero-woman.png`
-- `netlify.toml`
-
-## Netlify
-- Build command: leave blank
-- Publish directory: `.`
-- Branch: `main`
-
-## Important
-The logo and hero woman are exact crops from the approved reference image so the live page visually matches the screenshot instead of using a different generated model.
+Netlify:
+- Branch: main
+- Build command: blank
+- Publish directory: .
