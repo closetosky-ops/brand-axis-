@@ -35,3 +35,9 @@ Netlify:
 - Added `BRAND POSITIONING · CONTENT STRATEGY · CREATIVE PRODUCTION` above the headline.
 - Restored the stronger positioning paragraph.
 - Added `MONTHLY PLANNING · FOCUSED PRODUCTION · INSTAGRAM-READY CONTENT`.
+
+
+## v7 logo fix
+- Replaced the broken-arc/cropped logo with the approved full-circle BA + BRAND AXIS mark.
+- Removed the screenshot background to transparency.
+- Added generous transparent padding around the complete circle.

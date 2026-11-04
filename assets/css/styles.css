@@ -51,7 +51,7 @@ a { color: inherit; }
 
 .brand {
   flex: 0 0 auto;
-  width: 104px;
+  width: 112px;
   height: 104px;
   display: inline-flex;
   align-items: center;
@@ -68,8 +68,8 @@ a { color: inherit; }
 }
 
 .brand img {
-  width: 92px;
-  height: 92px;
+  width: 88px;
+  height: 88px;
   object-fit: contain;
   flex: 0 0 auto;
 }
@@ -521,4 +521,17 @@ a { color: inherit; }
 
   .placeholder-section { padding: 72px 0; }
   .placeholder-section h2 { font-size: 44px; }
+}
+
+
+/* v7: guarantee full circular Brand Axis logo remains visible */
+.brand,
+.nav-shell,
+.site-header {
+  overflow: visible;
+}
+
+.brand img {
+  object-fit: contain;
+  object-position: center;
 }
