@@ -43,20 +43,21 @@ a { color: inherit; }
 .nav-shell {
   width: 100%;
   height: 100%;
-  padding: 0 34px 0 22px;
-  display: grid;
-  grid-template-columns: 110px 1fr auto;
+  padding: 0 28px 0 30px;
+  display: flex;
   align-items: center;
-  gap: 32px;
+  gap: 0;
 }
 
 .brand {
-  width: 82px;
-  height: 82px;
+  flex: 0 0 auto;
+  width: 78px;
+  height: 78px;
   display: inline-flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   text-decoration: none;
+  overflow: visible;
   transition: transform .2s ease, opacity .2s ease;
 }
 
@@ -67,16 +68,18 @@ a { color: inherit; }
 }
 
 .brand img {
-  width: 78px;
-  height: 78px;
+  width: 70px;
+  height: 70px;
   object-fit: contain;
+  flex: 0 0 auto;
 }
 
 .site-nav {
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: clamp(28px, 3vw, 50px);
+  justify-content: flex-start;
+  gap: clamp(26px, 2.5vw, 42px);
+  margin-left: 34px;
 }
 
 .site-nav a {
@@ -114,7 +117,7 @@ a { color: inherit; }
 }
 
 .header-cta {
-  justify-self: end;
+  margin-left: auto;
   min-width: 170px;
   text-align: center;
   padding: 17px 20px;
@@ -228,7 +231,7 @@ a { color: inherit; }
   inset: -28px -18px -28px -90px;
   background-image: url("../images/hero-woman.jpg");
   background-size: cover;
-  background-position: center 42%;
+  background-position: center 32%;
   filter: blur(24px) brightness(.90) saturate(1.05);
   opacity: .42;
   transform: scale(1.05);
@@ -238,14 +241,18 @@ a { color: inherit; }
 
 .hero-visual img {
   position: absolute;
-  inset: 0;
-  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: auto;
+  width: auto;
+  max-width: none;
   height: 100%;
-  object-fit: cover;
-  object-position: center 42%;
+  object-fit: contain;
+  object-position: right bottom;
   filter: brightness(1.03) contrast(1.025) saturate(1.07);
-  -webkit-mask-image: linear-gradient(90deg, transparent 0%, rgba(0,0,0,.12) 8%, rgba(0,0,0,.70) 25%, #000 43%, #000 100%);
-  mask-image: linear-gradient(90deg, transparent 0%, rgba(0,0,0,.12) 8%, rgba(0,0,0,.70) 25%, #000 43%, #000 100%);
+  -webkit-mask-image: linear-gradient(90deg, transparent 0%, rgba(0,0,0,.18) 8%, rgba(0,0,0,.82) 24%, #000 38%, #000 100%);
+  mask-image: linear-gradient(90deg, transparent 0%, rgba(0,0,0,.18) 8%, rgba(0,0,0,.82) 24%, #000 38%, #000 100%);
 }
 
 .hero-visual::after {
@@ -331,14 +338,19 @@ a { color: inherit; }
   .site-header { height: 86px; }
 
   .nav-shell {
-    padding: 0 20px;
-    grid-template-columns: 1fr auto;
+    padding: 0 18px 0 20px;
+    display: flex;
+    align-items: center;
   }
 
-  .brand,
+  .brand {
+    width: 66px;
+    height: 66px;
+  }
+
   .brand img {
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
   }
 
   .site-nav,
@@ -439,7 +451,10 @@ a { color: inherit; }
   }
 
   .hero-visual img {
-    object-position: 62% 42%;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: right top;
     -webkit-mask-image: linear-gradient(180deg, #000 0%, rgba(0,0,0,.86) 55%, transparent 100%);
     mask-image: linear-gradient(180deg, #000 0%, rgba(0,0,0,.86) 55%, transparent 100%);
   }
