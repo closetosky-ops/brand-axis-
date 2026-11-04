@@ -74,3 +74,10 @@ Netlify:
 - Creative Production `LEARN MORE` on Services now opens this page.
 - Services remains the active gold-underlined navigation item.
 - Includes Who it’s for, What you receive, How it helps, five-image content strip, and the dark inquiry CTA.
+
+
+## v14 — About page
+- Added `about.html` based on the supplied About reference.
+- All About navigation links now open `about.html`.
+- About is gold-underlined while active.
+- Includes founder portrait/story/signature and Our Values cards.
