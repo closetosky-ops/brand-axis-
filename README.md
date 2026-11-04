@@ -29,3 +29,9 @@ Netlify:
 ## v5
 - Replaced cropped logo asset with the approved clean full-circle logo.
 - Increased header/logo box to keep the full circle visible.
+
+
+## v6 hero content
+- Added `BRAND POSITIONING · CONTENT STRATEGY · CREATIVE PRODUCTION` above the headline.
+- Restored the stronger positioning paragraph.
+- Added `MONTHLY PLANNING · FOCUSED PRODUCTION · INSTAGRAM-READY CONTENT`.
