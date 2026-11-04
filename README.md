@@ -46,3 +46,10 @@ Netlify:
 ## v8
 - Increased desktop navigation text from 13px to 15px.
 - Slightly increased nav spacing for a more polished header.
+
+
+## v9 — Services page
+- Added `services.html` matching the supplied Services reference.
+- Home page navigation now opens the Services page.
+- Hero `START MY CONTENT PLAN` button also opens Services.
+- Approved circular logo, Brand Axis palette, navigation size, and header CTA are preserved.
