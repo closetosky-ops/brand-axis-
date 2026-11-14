@@ -110,3 +110,7 @@ V18 homepage update: lowered founder portrait slightly in hero crop; replaced mo
 - Added direct-contact blocks to Contact.
 - Added branded contact details to the homepage footer and compact internal-page footers.
 - Netlify form remains active; configure form email notifications in Netlify to campaign@brand-axis.com.
+
+## v22 fix
+- Restored the complete assets folder (CSS, JS, and images) after the v21 packaging error.
+- Added a root route rewrite so `/` serves `index.html`.
