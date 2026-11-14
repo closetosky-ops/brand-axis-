@@ -1,3 +1,22 @@
+# Brand Axis — v17 polished homepage
+
+This package includes the full multipage Brand Axis website plus the updated homepage.
+
+## v17 homepage changes
+- Replaced the placeholder hero model with Anastasia's approved Brand Axis hero portrait.
+- Preserved the existing soft blur/fade treatment so the portrait blends into Axis Blue.
+- Removed the old one-page About / Services / Work / Contact placeholder sections from `index.html`.
+- Home navigation now links to Home, About, Services, and the new Contact page.
+- Added a functional Netlify inquiry form and removed dead one-page Contact links across the site.
+- Work is intentionally omitted from navigation until a real portfolio page is built.
+- Added a polished brand-positioning section and closing CTA instead of one-page placeholders.
+- Added a clean footer.
+- Home is now marked active in the navigation.
+- Existing About and service pages remain unchanged.
+
+## Deploy
+Upload everything inside this folder to the root of the GitHub repository. Netlify should redeploy automatically.
+
 # Brand Axis — polished hero rebuild
 
 Fresh website code based on the approved Brand Axis hero, updated with:

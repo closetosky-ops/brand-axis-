@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Brand Axis — Strategy, content, and creative concept for brands ready to be seen, trusted, and chosen." />
-  <title>Brand Axis</title>
+  <meta name="description" content="Brand Axis — Strategy, content, and creative direction for businesses ready to be seen, trusted, and chosen." />
+  <title>Brand Axis | Strategy, Content & Creative</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,10 +13,10 @@
   <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
 
-<body>
+<body class="home-page">
   <header class="site-header">
     <div class="nav-shell">
-      <a class="brand" href="#home" aria-label="Brand Axis — return home">
+      <a class="brand" href="index.html" aria-label="Brand Axis — return home">
         <img src="assets/images/brand-axis-logo.png" alt="Brand Axis BA logo" />
       </a>
 
@@ -25,22 +25,21 @@
       </button>
 
       <nav class="site-nav" aria-label="Primary navigation">
-        <a href="index.html#home">Home</a>
+        <a class="active" href="index.html" aria-current="page">Home</a>
         <a href="about.html">About</a>
         <a href="services.html">Services</a>
-        <a href="index.html#work">Work</a>
-        <a href="index.html#contact">Contact</a>
+        <a href="contact.html">Contact</a>
       </nav>
 
-      <a class="header-cta" href="index.html#contact">PLAN MY CONTENT</a>
+      <a class="header-cta" href="contact.html">PLAN MY CONTENT</a>
     </div>
   </header>
 
-  <main id="home">
-    <section class="hero">
+  <main>
+    <section class="hero home-hero">
       <div class="hero-visual" aria-hidden="true">
         <div class="hero-blur"></div>
-        <img src="assets/images/hero-woman.jpg" alt="" />
+        <img src="assets/images/anastasia-home-hero.png" alt="" />
       </div>
 
       <div class="hero-copy">
@@ -80,39 +79,67 @@
       </div>
     </section>
 
-    <section id="about" class="placeholder-section">
-      <div class="shell">
-        <p class="eyebrow">ABOUT</p>
-        <h2>Brand Axis</h2>
-        <p>Strategy, content, and creative concepts designed to make your brand clearer, stronger, and more memorable.</p>
+    <section class="home-positioning" aria-labelledby="home-positioning-title">
+      <div class="home-positioning-shell">
+        <div class="home-positioning-intro">
+          <p class="home-kicker">A LUXURY APPROACH TO BRAND COMMUNICATION</p>
+          <h2 id="home-positioning-title">Clear thinking. Purposeful creative. <em>Marketing with a reason behind it.</em></h2>
+          <p>
+            Brand Axis helps businesses turn a goal into a clear message, a focused direction, and creative that gives people a reason to care.
+          </p>
+        </div>
+
+        <div class="home-values-grid">
+          <article>
+            <span class="home-value-number">01</span>
+            <h3>Clarity</h3>
+            <p>Know what you are trying to make happen — and what your customer needs to understand first.</p>
+          </article>
+
+          <article>
+            <span class="home-value-number">02</span>
+            <h3>Strategy</h3>
+            <p>Build the message and direction around the business goal instead of creating content just to stay busy.</p>
+          </article>
+
+          <article>
+            <span class="home-value-number">03</span>
+            <h3>Creative</h3>
+            <p>Bring the strategy to life with ideas and content that feel intentional, polished, and worth paying attention to.</p>
+          </article>
+        </div>
+
+        <div class="home-positioning-actions">
+          <a class="home-link-button home-link-button--gold" href="services.html">EXPLORE SERVICES <span>→</span></a>
+          <a class="home-text-link" href="about.html">MEET ANASTASIA <span>→</span></a>
+        </div>
       </div>
     </section>
 
-    <section id="services" class="placeholder-section alt">
-      <div class="shell">
-        <p class="eyebrow">SERVICES</p>
-        <h2>Strategy. Content. Creative Concept.</h2>
-        <p>Brand positioning, content direction, and creative concept development.</p>
-      </div>
-    </section>
-
-    <section id="work" class="placeholder-section">
-      <div class="shell">
-        <p class="eyebrow">WORK</p>
-        <h2>Selected Work</h2>
-        <p>Portfolio and concept work will live here.</p>
-      </div>
-    </section>
-
-    <section id="contact" class="placeholder-section alt">
-      <div class="shell">
-        <p class="eyebrow">CONTACT</p>
-        <h2>Let's build your brand.</h2>
-        <p>Email: <a href="mailto:brand.axis@icloud.com">brand.axis@icloud.com</a></p>
-        <p>Phone: <a href="tel:13126311234">(312) 631-1234</a></p>
+    <section class="home-closing">
+      <div class="home-closing-shell">
+        <p class="home-kicker">BRAND AXIS</p>
+        <h2>Beautiful is good. <em>Effective is better.</em></h2>
+        <p>Start with the goal. Build the message. Create with purpose.</p>
+        <a class="home-link-button home-link-button--gold" href="services.html">SEE HOW WE CAN HELP <span>→</span></a>
       </div>
     </section>
   </main>
+
+  <footer class="home-footer">
+    <div class="home-footer-inner">
+      <a class="home-footer-brand" href="index.html" aria-label="Brand Axis home">
+        <img src="assets/images/brand-axis-logo.png" alt="Brand Axis" />
+      </a>
+      <p>Strategy. Content. Creative with a reason behind it.</p>
+      <nav aria-label="Footer navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </footer>
 
   <script src="assets/js/main.js"></script>
 </body>
