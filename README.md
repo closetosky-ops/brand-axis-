@@ -103,3 +103,10 @@ Netlify:
 
 
 V18 homepage update: lowered founder portrait slightly in hero crop; replaced monthly-content language with campaign-focused positioning; updated homepage CTA/proof/capability strip and header CTA.
+
+
+## v19 update
+- Added campaign@brand-axis.com and anastasia@brand-axis.com across the site.
+- Added direct-contact blocks to Contact.
+- Added branded contact details to the homepage footer and compact internal-page footers.
+- Netlify form remains active; configure form email notifications in Netlify to campaign@brand-axis.com.

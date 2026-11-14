@@ -3016,3 +3016,99 @@ a { color: inherit; }
   .contact-form { padding: 28px 22px 30px; }
   .contact-submit { width: 100%; }
 }
+
+
+/* =========================================================
+   CONTACT DETAILS + GLOBAL FOOTER
+   ========================================================= */
+.contact-direct {
+  margin-top: 44px;
+  padding-top: 30px;
+  border-top: 1px solid rgba(198,162,74,.45);
+  display: grid;
+  gap: 26px;
+}
+.contact-direct-item { min-width: 0; }
+.contact-direct-label {
+  margin: 0 0 8px;
+  color: var(--gold);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: .14em;
+}
+.contact-direct-item a {
+  display: inline-block;
+  color: var(--axis-blue);
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: clamp(24px, 2vw, 31px);
+  font-weight: 600;
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+.contact-direct-item a:hover,
+.contact-direct-item a:focus-visible { color: #a6802e; }
+.contact-direct-item > p:last-child {
+  margin: 7px 0 0;
+  color: #777c84;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.home-footer-copy { min-width: 0; }
+.home-footer-copy p { margin: 0 0 7px; }
+.home-footer-copy a {
+  color: var(--gold);
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 600;
+}
+.home-footer-copy a:hover,
+.home-footer-copy a:focus-visible { color: var(--ivory); }
+
+.site-footer {
+  background: #091523;
+  border-top: 1px solid rgba(198,162,74,.22);
+}
+.site-footer-inner {
+  width: min(1180px, calc(100% - 56px));
+  min-height: 92px;
+  margin-inline: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
+}
+.site-footer p {
+  margin: 0;
+  color: #aab5c4;
+  font-size: 11px;
+  line-height: 1.6;
+}
+.site-footer-contact {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+.site-footer-contact span { color: rgba(198,162,74,.55); }
+.site-footer-contact a {
+  color: var(--ivory);
+  font-size: 11px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.site-footer-contact a:hover,
+.site-footer-contact a:focus-visible { color: var(--gold); }
+
+@media (max-width: 660px) {
+  .contact-direct { margin-top: 36px; }
+  .site-footer-inner {
+    width: calc(100% - 38px);
+    padding: 26px 0;
+    min-height: 0;
+    flex-direction: column;
+    text-align: center;
+  }
+  .site-footer-contact { justify-content: center; }
+}
