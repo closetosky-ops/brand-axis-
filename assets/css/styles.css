@@ -3175,3 +3175,15 @@ a { color: inherit; }
   .thank-you-actions { align-items: flex-start; flex-direction: column; }
   .thank-you-actions .home-link-button { width: 100%; }
 }
+
+
+/* Form submission feedback */
+.form-status {
+  margin: 14px 0 0;
+  min-height: 20px;
+  color: #6a5a34;
+  font-size: 12px;
+  line-height: 1.55;
+}
+.form-status a { color: var(--axis-blue); font-weight: 700; }
+.contact-submit:disabled { opacity: .72; cursor: wait; }

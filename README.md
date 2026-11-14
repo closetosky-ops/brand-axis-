@@ -114,3 +114,7 @@ V18 homepage update: lowered founder portrait slightly in hero crop; replaced mo
 ## v22 fix
 - Restored the complete assets folder (CSS, JS, and images) after the v21 packaging error.
 - Added a root route rewrite so `/` serves `index.html`.
+
+
+## v23 form fix
+The Contact form now posts to Netlify via JavaScript and redirects to `/thank-you.html` using a normal GET request after a successful submission. This prevents blank POST responses on the thank-you page.
