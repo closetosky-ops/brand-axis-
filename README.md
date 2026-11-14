@@ -118,3 +118,7 @@ V18 homepage update: lowered founder portrait slightly in hero crop; replaced mo
 
 ## v23 form fix
 The Contact form now posts to Netlify via JavaScript and redirects to `/thank-you.html` using a normal GET request after a successful submission. This prevents blank POST responses on the thank-you page.
+
+
+## v24 form fix
+The contact form now submits its Netlify Forms POST to `/contact.html` rather than `/`. This avoids the homepage root rewrite intercepting form submissions. After a successful POST, JavaScript opens `/thank-you.html` as a normal GET request.

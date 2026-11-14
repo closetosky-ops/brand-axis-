@@ -16,8 +16,9 @@ if (toggle && nav) {
 }
 
 
-// Netlify form submission: submit in the background, then load the thank-you page
-// as a normal GET request. This avoids blank POST responses on static HTML pages.
+// Netlify form submission: POST to the contact page itself, then load the thank-you page
+// as a normal GET request. We intentionally do not POST to '/' because the site uses
+// a root rewrite to /index.html, which can interfere with Netlify Forms POST handling.
 const projectForm = document.querySelector('form[name="brand-axis-project"]');
 
 if (projectForm) {
@@ -45,7 +46,7 @@ if (projectForm) {
     if (status) status.textContent = '';
 
     try {
-      const response = await fetch('/', {
+      const response = await fetch('/contact.html', {
         method: 'POST',
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
         body: encodeFormData(new FormData(projectForm))
