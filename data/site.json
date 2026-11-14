@@ -1,0 +1,10 @@
+{
+  "campaignEmail": "campaign@brand-axis.com",
+  "founderEmail": "anastasia@brand-axis.com",
+  "footerTagline": "Brand Axis — marketing with a reason behind it",
+  "prices": {
+    "campaign": "$799",
+    "build": "$599",
+    "create": "$499"
+  }
+}

@@ -14,22 +14,27 @@
 <body class="contact-page">
   <header class="site-header">
     <div class="nav-shell">
-      <a class="brand" href="index.html" aria-label="Brand Axis — return home">
-        <img src="assets/images/brand-axis-logo.png" alt="Brand Axis BA logo" />
+      <a class="brand" href="index.html" aria-label="Brand Axis — Home">
+        <img src="assets/images/brand-axis-logo.png" alt="Brand Axis logo" />
       </a>
-
       <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
-
       <nav class="site-nav" aria-label="Primary navigation">
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
-        <a href="services.html">Services</a>
+        <div class="nav-dropdown">
+          <a class="nav-dropdown-trigger" href="services.html">Services <span class="nav-caret" aria-hidden="true">⌄</span></a>
+          <div class="nav-dropdown-menu" aria-label="Services submenu">
+            <a href="campaign.html"><span class="nav-service-icon">◎</span><span><strong>Campaign</strong><small>Strategy, launch & promotion</small></span></a>
+            <a href="build.html"><span class="nav-service-icon">◇</span><span><strong>Build</strong><small>Websites & landing pages</small></span></a>
+            <a href="create.html"><span class="nav-service-icon">□</span><span><strong>Create</strong><small>Campaign creative</small></span></a>
+          </div>
+        </div>
+        <a href="work.html">Work</a>
         <a class="active" href="contact.html" aria-current="page">Contact</a>
       </nav>
-
-      <a class="header-cta" href="#project-form">START A PROJECT</a>
+      <a class="header-cta" href="contact.html">START A PROJECT</a>
     </div>
   </header>
 
@@ -62,12 +67,12 @@
           <div class="contact-direct">
             <div class="contact-direct-item">
               <p class="contact-direct-label">CAMPAIGN INQUIRIES</p>
-              <a href="mailto:campaign@brand-axis.com">campaign@brand-axis.com</a>
+              <a data-campaign-email href="mailto:campaign@brand-axis.com">campaign@brand-axis.com</a>
               <p>For new projects, launches, promotions, and campaign ideas.</p>
             </div>
             <div class="contact-direct-item">
               <p class="contact-direct-label">WORK WITH ANASTASIA</p>
-              <a href="mailto:anastasia@brand-axis.com">anastasia@brand-axis.com</a>
+              <a data-founder-email href="mailto:anastasia@brand-axis.com">anastasia@brand-axis.com</a>
               <p>For direct founder, partnership, and client communication.</p>
             </div>
           </div>
@@ -142,11 +147,11 @@
 
   <footer class="site-footer">
     <div class="site-footer-inner">
-      <p>Brand Axis — marketing with a reason behind it.</p>
+      <p data-footer-tagline>Brand Axis — marketing with a reason behind it</p>
       <div class="site-footer-contact">
-        <a href="mailto:campaign@brand-axis.com">campaign@brand-axis.com</a>
+        <a data-campaign-email href="mailto:campaign@brand-axis.com">campaign@brand-axis.com</a>
         <span aria-hidden="true">·</span>
-        <a href="mailto:anastasia@brand-axis.com">anastasia@brand-axis.com</a>
+        <a data-founder-email href="mailto:anastasia@brand-axis.com">anastasia@brand-axis.com</a>
       </div>
     </div>
   </footer>

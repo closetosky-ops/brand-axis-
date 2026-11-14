@@ -6,3 +6,18 @@
   to = "/index.html"
   status = 200
   force = true
+
+[[redirects]]
+  from = "/brand-analysis.html"
+  to = "/campaign.html"
+  status = 301
+
+[[redirects]]
+  from = "/content-direction.html"
+  to = "/campaign.html"
+  status = 301
+
+[[redirects]]
+  from = "/creative-production.html"
+  to = "/create.html"
+  status = 301

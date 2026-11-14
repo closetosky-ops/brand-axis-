@@ -1,0 +1,57 @@
+backend:
+  name: github
+  repo: closetosky-ops/brand-axis-
+  branch: main
+
+site_url: https://brandaxisnew.netlify.app
+display_url: https://brandaxisnew.netlify.app
+logo_url: /assets/images/brand-axis-logo.png
+
+media_folder: assets/images/work
+public_folder: /assets/images/work
+
+publish_mode: simple
+
+collections:
+  - name: site_data
+    label: Site Data
+    files:
+      - label: Work Portfolio
+        name: work
+        file: data/work.json
+        format: json
+        fields:
+          - label: Projects
+            name: projects
+            widget: list
+            summary: "{{fields.title}} — {{fields.type}}"
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Project type, name: type, widget: select, options: [Client Work, Website Project, Creative Work, Owned Project, Project, Concept Study] }
+              - label: Categories
+                name: categories
+                widget: select
+                multiple: true
+                options: [Campaign, Build, Create]
+              - { label: Short summary, name: summary, widget: text }
+              - { label: Full details, name: details, widget: text }
+              - { label: Image, name: image, widget: image, required: false }
+              - { label: Link, name: link, widget: string, required: false }
+              - { label: Link label, name: link_label, widget: string, required: false }
+              - { label: Status, name: status, widget: string, required: false }
+              - { label: Featured, name: featured, widget: boolean, default: false }
+      - label: Site Settings
+        name: site
+        file: data/site.json
+        format: json
+        fields:
+          - { label: Campaign email, name: campaignEmail, widget: string }
+          - { label: Founder email, name: founderEmail, widget: string }
+          - { label: Footer tagline, name: footerTagline, widget: string }
+          - label: Starting Prices
+            name: prices
+            widget: object
+            fields:
+              - { label: Campaign, name: campaign, widget: string }
+              - { label: Build, name: build, widget: string }
+              - { label: Create, name: create, widget: string }

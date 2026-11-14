@@ -1,0 +1,105 @@
+{
+  "projects": [
+    {
+      "title": "Brand Axis",
+      "type": "Owned Project",
+      "categories": [
+        "Build"
+      ],
+      "summary": "Founder-led custom website, messaging and conversion-focused structure for Brand Axis.",
+      "details": "Built from scratch to communicate the Brand Axis positioning, services and inquiry path with a consistent luxury visual system.",
+      "image": "/assets/images/anastasia-home-hero.png",
+      "link": "https://brandaxisnew.netlify.app",
+      "link_label": "VIEW SITE",
+      "status": "Published",
+      "featured": true
+    },
+    {
+      "title": "Anri Tattoo",
+      "type": "Website Project",
+      "categories": [
+        "Build"
+      ],
+      "summary": "Artist website built to present work, story and booking direction clearly.",
+      "details": "A focused digital home for a tattoo artist and personal brand, designed around credibility and client action.",
+      "image": "",
+      "link": "https://anri.tattoo",
+      "link_label": "VIEW SITE",
+      "status": "Published",
+      "featured": true
+    },
+    {
+      "title": "Ink That Heals",
+      "type": "Project",
+      "categories": [
+        "Build",
+        "Campaign"
+      ],
+      "summary": "Event-focused digital presence supporting the Ink That Heals concept.",
+      "details": "A project combining message, event presentation and a clear destination for people learning about the initiative.",
+      "image": "",
+      "link": "https://inkthatheals.org",
+      "link_label": "VIEW SITE",
+      "status": "Published",
+      "featured": false
+    },
+    {
+      "title": "Flourish Bee Farm",
+      "type": "Client Work",
+      "categories": [
+        "Campaign",
+        "Build",
+        "Create"
+      ],
+      "summary": "A 45-day digital launch and campaign system designed to help a honey business sell online.",
+      "details": "Scope includes market research, audience strategy, custom ecommerce website, brand voice, content system, Meta campaign planning, tracking, analytics and a final performance roadmap.",
+      "image": "",
+      "link": "",
+      "link_label": "",
+      "status": "In progress · $2,250 project",
+      "featured": true
+    },
+    {
+      "title": "Blossom",
+      "type": "Creative Work",
+      "categories": [
+        "Create"
+      ],
+      "summary": "Short-form brand video created for social-first promotion.",
+      "details": "A focused creative piece demonstrating Brand Axis video direction and editing. Finished video will be added to the portfolio.",
+      "image": "",
+      "link": "",
+      "link_label": "",
+      "status": "Video coming soon",
+      "featured": false
+    },
+    {
+      "title": "Fashion for Ukraine",
+      "type": "Creative Work",
+      "categories": [
+        "Create"
+      ],
+      "summary": "Event-focused video content created around Fashion for Ukraine.",
+      "details": "Event creative and promotional storytelling designed for social use. Finished portfolio media will be added as it is prepared.",
+      "image": "",
+      "link": "",
+      "link_label": "",
+      "status": "Video coming soon",
+      "featured": false
+    },
+    {
+      "title": "Local Winery Growth Concept",
+      "type": "Concept Study",
+      "categories": [
+        "Campaign"
+      ],
+      "summary": "What if a small winery stopped trying to look bigger — and became a destination instead?",
+      "details": "Concept direction centers local exclusivity and experience-based revenue: tastings, paint-and-sip programming, wedding bottle traditions, anniversary return moments and occasion-led campaigns. A sample of how Brand Axis turns a growth goal into a distinct marketing direction.",
+      "image": "",
+      "link": "",
+      "link_label": "",
+      "status": "Concept Study",
+      "featured": true
+    }
+  ]
+}

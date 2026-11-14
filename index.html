@@ -16,21 +16,26 @@
 <body class="home-page">
   <header class="site-header">
     <div class="nav-shell">
-      <a class="brand" href="index.html" aria-label="Brand Axis — return home">
-        <img src="assets/images/brand-axis-logo.png" alt="Brand Axis BA logo" />
+      <a class="brand" href="index.html" aria-label="Brand Axis — Home">
+        <img src="assets/images/brand-axis-logo.png" alt="Brand Axis logo" />
       </a>
-
       <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
-
       <nav class="site-nav" aria-label="Primary navigation">
         <a class="active" href="index.html" aria-current="page">Home</a>
         <a href="about.html">About</a>
-        <a href="services.html">Services</a>
+        <div class="nav-dropdown">
+          <a class="nav-dropdown-trigger" href="services.html">Services <span class="nav-caret" aria-hidden="true">⌄</span></a>
+          <div class="nav-dropdown-menu" aria-label="Services submenu">
+            <a href="campaign.html"><span class="nav-service-icon">◎</span><span><strong>Campaign</strong><small>Strategy, launch & promotion</small></span></a>
+            <a href="build.html"><span class="nav-service-icon">◇</span><span><strong>Build</strong><small>Websites & landing pages</small></span></a>
+            <a href="create.html"><span class="nav-service-icon">□</span><span><strong>Create</strong><small>Campaign creative</small></span></a>
+          </div>
+        </div>
+        <a href="work.html">Work</a>
         <a href="contact.html">Contact</a>
       </nav>
-
       <a class="header-cta" href="contact.html">START A PROJECT</a>
     </div>
   </header>
@@ -132,13 +137,14 @@
         <img src="assets/images/brand-axis-logo.png" alt="Brand Axis" />
       </a>
       <div class="home-footer-copy">
-        <p>Campaign strategy. Creative direction. Marketing with a reason behind it.</p>
-        <a href="mailto:campaign@brand-axis.com">campaign@brand-axis.com</a>
+        <p>Campaign strategy. Creative direction. Marketing with a reason behind it</p>
+        <a data-campaign-email href="mailto:campaign@brand-axis.com">campaign@brand-axis.com</a>
       </div>
       <nav aria-label="Footer navigation">
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
         <a href="services.html">Services</a>
+        <a href="work.html">Work</a>
         <a href="contact.html">Contact</a>
       </nav>
     </div>

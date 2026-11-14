@@ -14,8 +14,8 @@
 <body class="thank-you-page">
   <header class="site-header">
     <div class="nav-shell">
-      <a class="brand" href="index.html" aria-label="Brand Axis — return home">
-        <img src="assets/images/brand-axis-logo.png" alt="Brand Axis BA logo" />
+      <a class="brand" href="index.html" aria-label="Brand Axis — Home">
+        <img src="assets/images/brand-axis-logo.png" alt="Brand Axis logo" />
       </a>
       <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">
         <span></span><span></span><span></span>
@@ -23,7 +23,15 @@
       <nav class="site-nav" aria-label="Primary navigation">
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
-        <a href="services.html">Services</a>
+        <div class="nav-dropdown">
+          <a class="nav-dropdown-trigger" href="services.html">Services <span class="nav-caret" aria-hidden="true">⌄</span></a>
+          <div class="nav-dropdown-menu" aria-label="Services submenu">
+            <a href="campaign.html"><span class="nav-service-icon">◎</span><span><strong>Campaign</strong><small>Strategy, launch & promotion</small></span></a>
+            <a href="build.html"><span class="nav-service-icon">◇</span><span><strong>Build</strong><small>Websites & landing pages</small></span></a>
+            <a href="create.html"><span class="nav-service-icon">□</span><span><strong>Create</strong><small>Campaign creative</small></span></a>
+          </div>
+        </div>
+        <a href="work.html">Work</a>
         <a href="contact.html">Contact</a>
       </nav>
       <a class="header-cta" href="contact.html">START A PROJECT</a>
@@ -34,7 +42,7 @@
     <section class="thank-you-shell">
       <p class="thank-you-kicker">MESSAGE RECEIVED</p>
       <h1>Thank you.<br><em>I’ll take it from here.</em></h1>
-      <p class="thank-you-copy">Your project inquiry has been submitted to Brand Axis. I’ll review what you’re trying to make happen and follow up with the smartest next step.</p>
+      <p class="thank-you-copy">Your project inquiry is in. I’m excited to learn more about your business, your goals, and what you want to make happen. I’ll be in touch soon so we can start building the right plan around it.</p>
       <div class="thank-you-actions">
         <a class="home-link-button" href="index.html">BACK TO HOME <span aria-hidden="true">→</span></a>
         <a class="thank-you-email" href="mailto:campaign@brand-axis.com">campaign@brand-axis.com</a>
@@ -44,11 +52,11 @@
 
   <footer class="site-footer">
     <div class="site-footer-inner">
-      <p>Brand Axis — marketing with a reason behind it.</p>
+      <p data-footer-tagline>Brand Axis — marketing with a reason behind it</p>
       <div class="site-footer-contact">
-        <a href="mailto:campaign@brand-axis.com">campaign@brand-axis.com</a>
+        <a data-campaign-email href="mailto:campaign@brand-axis.com">campaign@brand-axis.com</a>
         <span aria-hidden="true">·</span>
-        <a href="mailto:anastasia@brand-axis.com">anastasia@brand-axis.com</a>
+        <a data-founder-email href="mailto:anastasia@brand-axis.com">anastasia@brand-axis.com</a>
       </div>
     </div>
   </footer>
