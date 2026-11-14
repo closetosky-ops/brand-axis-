@@ -2069,6 +2069,40 @@ a { color: inherit; }
   font-size: 60px;
 }
 
+.value-icon.impact {
+  position: relative;
+  align-items: center;
+}
+
+.value-icon.impact .impact-ring,
+.value-icon.impact .impact-dot {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+
+.value-icon.impact .impact-ring {
+  border: 2px solid #9c7b38;
+}
+
+.value-icon.impact .impact-ring-outer {
+  width: 45px;
+  height: 45px;
+}
+
+.value-icon.impact .impact-ring-inner {
+  width: 25px;
+  height: 25px;
+}
+
+.value-icon.impact .impact-dot {
+  width: 7px;
+  height: 7px;
+  background: #9c7b38;
+}
+
 .value-card h2 {
   margin: 0 0 8px;
   color: #30343a;
