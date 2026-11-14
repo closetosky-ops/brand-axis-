@@ -100,3 +100,6 @@ Netlify:
 - All About navigation links now open `about.html`.
 - About is gold-underlined while active.
 - Includes founder portrait/story/signature and Our Values cards.
+
+
+V18 homepage update: lowered founder portrait slightly in hero crop; replaced monthly-content language with campaign-focused positioning; updated homepage CTA/proof/capability strip and header CTA.
